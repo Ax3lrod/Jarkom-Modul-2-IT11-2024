@@ -720,7 +720,7 @@ Listen 8080
 
 ```
 
-f. Nyalakan situs web yang telah di Setup pada `it02.conf`
+f. Nyalakan situs web yang telah di Setup pada `it11.conf`
 
 ```
 a2ensite it11.conf
@@ -935,7 +935,7 @@ $ rm -rf /var/www/html/configuration/
 
 ```
 
-e. Edit file `it02` pada `/etc/nginx/sites-available/` menjadi seperti berikut ini
+e. Edit file `it11` pada `/etc/nginx/sites-available/` menjadi seperti berikut ini
 
 Untuk kotalingga:
 
@@ -1186,7 +1186,7 @@ server {
 e. Buat symlink `it11` pada `/etc/nginx/sites-available/` di `/etc/nginx/sites-enabled`
 
 ```
-ln -s /etc/nginx/sites-available/it02 /etc/nginx/sites-enabled
+ln -s /etc/nginx/sites-available/it11 /etc/nginx/sites-enabled
 
 ```
 
@@ -1424,9 +1424,7 @@ Lakukan testing dengan command `lynx 10.69.1.3/worker2` di client.
 
 **Konfigurasi pada Sriwijaya**
 
-Masukkan konfigurasi zone tamat baru pada file berikut
-
-- /etc/bind/named.conf.local
+Masukkan konfigurasi zone sekianterimakasih baru pada `/etc/bind/named.conf.local`
 
 ```
 zone "sekianterimakasih.it11.com" {
@@ -1436,9 +1434,7 @@ zone "sekianterimakasih.it11.com" {
 
 ```
 
-Buat file baru sekianterimakasih.it11.com lalu isi konfigurasi berikut
-
-- /etc/bind/it11/sekianterimakasih.it11.com
+Buat file baru sekianterimakasih.it11.com di `/etc/bind/it11/` dan isi konfigurasi ini:
 
 ```bash
 ;
