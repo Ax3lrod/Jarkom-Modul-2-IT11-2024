@@ -266,9 +266,9 @@ ping pasopati.it11.com -c 3
 ping rujapala.it11.com -c 3
 ```
 
-![image](https://github.com/user-attachments/assets/400d4cac-e866-48fd-96b0-307344f2cb0a)
+![image](https://github.com/user-attachments/assets/cdf1ea3e-80e9-4afc-8019-28b32a66a2b2)
 
-![image](https://github.com/user-attachments/assets/a91b4fa8-cbfb-4ec6-af0f-ede4a74f2436)
+![image](https://github.com/user-attachments/assets/8580af6a-e3df-4127-8311-4fd6cda105b8)
 
 ![image](https://github.com/user-attachments/assets/bd7aa181-c490-482b-9eaf-c68f15b0683c)
 
