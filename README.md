@@ -4,7 +4,7 @@ Sebuah kerajaan besar di Indonesia sedang mengalami pertempuran dengan penjajah.
 
 1. Untuk mempersiapkan peperangan World War MMXXIV (Iya sebanyak itu), **Sriwijaya** membuat dua kotanya menjadi web server yaitu **Tanjungkulai,** dan **Bedahulu**, serta **Sriwijaya** sendiri akan menjadi DNS Master. Kemudian karena merasa terdesak, **Majapahit** memberikan bantuan dan menjadikan kerajaannya (**Majapahit)** menjadi **DNS Slave**.
 
-[https://lh7-rt.googleusercontent.com/docsz/AD_4nXefUNmruE8lcIY2aLWQfAgsl2eojPeAWiiqaFxLIdB9QkdE68cm2epjHw-0A4Q7FE-8sXz1-DjbAr7nV22bDmBnGSTxsBoXTJ0pxax7hWC2DOXgDMxZHoBO9nHB_BMV9P3KionOOSEQ-70DAMRmqHKLqBfO?key=2HflR-ZZCmuNztsPZ8UfaA](https://lh7-rt.googleusercontent.com/docsz/AD_4nXefUNmruE8lcIY2aLWQfAgsl2eojPeAWiiqaFxLIdB9QkdE68cm2epjHw-0A4Q7FE-8sXz1-DjbAr7nV22bDmBnGSTxsBoXTJ0pxax7hWC2DOXgDMxZHoBO9nHB_BMV9P3KionOOSEQ-70DAMRmqHKLqBfO?key=2HflR-ZZCmuNztsPZ8UfaA)
+![image](https://github.com/user-attachments/assets/5ad31bc8-aa3e-4cf6-abbe-186c8922fca3)
 
 **KONFIGURASI NODE**
 
@@ -257,11 +257,12 @@ ping pasopati.it11.com -c 3
 ping rujapala.it11.com -c 3
 ```
 
-[https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNFtNoCjz5WTua9wH6KtJk-uYqmwq1hxXWS4z5DlxB1PXSIpOsEnf9xARsdQxZgqYUeOrIBPFx3AnDB4UQYil1c3sftV08SasZ4RJn42dqaCmF09Q-uLu3vnYRuQfpWgpWL9yuL3rAP6bzcP2zftubSljO?key=2HflR-ZZCmuNztsPZ8UfaA](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNFtNoCjz5WTua9wH6KtJk-uYqmwq1hxXWS4z5DlxB1PXSIpOsEnf9xARsdQxZgqYUeOrIBPFx3AnDB4UQYil1c3sftV08SasZ4RJn42dqaCmF09Q-uLu3vnYRuQfpWgpWL9yuL3rAP6bzcP2zftubSljO?key=2HflR-ZZCmuNztsPZ8UfaA)
+![image](https://github.com/user-attachments/assets/400d4cac-e866-48fd-96b0-307344f2cb0a)
 
-[https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm5o9hK_KzoX2kBzjjpU9WSnFwlm5mbnXgHu3yObf_0zd6RsSUZ-PdpoYgd-E-i_u6Om0fdEQkNaLU33uuhnB3mOxN02g-PW5D1XsGywcWQuiQtY0Kgq1mnrt5MbHjPvUyto1heATE0gSY0zsFi_64uzPk?key=2HflR-ZZCmuNztsPZ8UfaA](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm5o9hK_KzoX2kBzjjpU9WSnFwlm5mbnXgHu3yObf_0zd6RsSUZ-PdpoYgd-E-i_u6Om0fdEQkNaLU33uuhnB3mOxN02g-PW5D1XsGywcWQuiQtY0Kgq1mnrt5MbHjPvUyto1heATE0gSY0zsFi_64uzPk?key=2HflR-ZZCmuNztsPZ8UfaA)
+![image](https://github.com/user-attachments/assets/a91b4fa8-cbfb-4ec6-af0f-ede4a74f2436)
 
-[https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-BxsYAw035tz0JUJb9gJ9kicOJs0ro-Y3cEQ-mZyYDZeuMR9Q8Vf1vcW_M1wElwb9Um9ww9gcFq4IxqYWW0_VZFo5NR4CbtMPPtEIsKtdMNEjWxa7LNyLN1tBXlcH_u41wDAnHhtRCNXmKhzfN05qBRO2?key=2HflR-ZZCmuNztsPZ8UfaA](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-BxsYAw035tz0JUJb9gJ9kicOJs0ro-Y3cEQ-mZyYDZeuMR9Q8Vf1vcW_M1wElwb9Um9ww9gcFq4IxqYWW0_VZFo5NR4CbtMPPtEIsKtdMNEjWxa7LNyLN1tBXlcH_u41wDAnHhtRCNXmKhzfN05qBRO2?key=2HflR-ZZCmuNztsPZ8UfaA)
+![image](https://github.com/user-attachments/assets/bd7aa181-c490-482b-9eaf-c68f15b0683c)
+
 
 1. Beberapa daerah memiliki keterbatasan yang menyebabkan **hanya dapat** mengakses domain secara langsung melalui **alamat IP** domain tersebut. Karena daerah tersebut tidak diketahui secara spesifik, pastikan semua komputer (client) dapat mengakses domain **pasopati.xxxx.com** melalui **alamat IP Kotalingga** (Notes: menggunakan pointer record).
 
