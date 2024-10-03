@@ -1,6 +1,13 @@
-# Jarkom Modul 2
+# Laporan Resmi Praktikum Komunikasi Data dan Jaringan Komputer Soal Shift Modul 2 Kelompok IT11
+
+| Nama | NRP   |
+|:-------------|:----------:|
+| Aryasatya Alaauddin | 5027231082 |
+| Almendo Jekson Darwin Naftali Kambu | 5027221073 | 
 
 Sebuah kerajaan besar di Indonesia sedang mengalami pertempuran dengan penjajah. Kerajaan tersebut adalah **Sriwijaya**. Karena merasa terdesak **Sriwijaya** meminta bantuan pada **Majapahit** untuk mempertahankan wilayahnya. Pertempuran besar tersebut berada di **Nusantara**. Untuk topologi lihat pada [link](https://drive.google.com/drive/folders/14Pe2HOks3NzF4f_mNdrziIF56QwiKfFn) ini.
+
+# Soal 1
 
 1. Untuk mempersiapkan peperangan World War MMXXIV (Iya sebanyak itu), **Sriwijaya** membuat dua kotanya menjadi web server yaitu **Tanjungkulai,** dan **Bedahulu**, serta **Sriwijaya** sendiri akan menjadi DNS Master. Kemudian karena merasa terdesak, **Majapahit** memberikan bantuan dan menjadikan kerajaannya (**Majapahit)** menjadi **DNS Slave**.
 
@@ -139,6 +146,7 @@ iface eth0 inet static
 	gateway 10.69.1.1
 	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 ```
+# Soal 2,3,4
 
 2. Karena para pasukan membutuhkan koordinasi untuk melancarkan serangannya, maka buatlah sebuah domain yang mengarah ke **Solok** dengan alamat **sudarsana.xxxx.com** dengan alias **www.sudarsana.xxxx.com,** dimana **xxxx** merupakan kode kelompok. Contoh: **sudarsana.it01.com**.
 3. Para pasukan juga perlu mengetahui mana titik yang akan diserang, sehingga dibutuhkan domain lain yaitu **pasopati.xxxx.com** dengan alias **www.pasopati.xxxx.com** yang **mengarah ke Kotalingga**.
@@ -239,6 +247,7 @@ EOL
 # Restart the BIND9 service
 service bind9 restart
 ```
+# Soal 5
 
 5. Pastikan domain-domain tersebut dapat diakses oleh **seluruh komputer (client)** yang berada di **Nusantara**.
 
@@ -263,6 +272,7 @@ ping rujapala.it11.com -c 3
 
 ![image](https://github.com/user-attachments/assets/bd7aa181-c490-482b-9eaf-c68f15b0683c)
 
+# Soal 6
 
 6. Beberapa daerah memiliki keterbatasan yang menyebabkan **hanya dapat** mengakses domain secara langsung melalui **alamat IP** domain tersebut. Karena daerah tersebut tidak diketahui secara spesifik, pastikan semua komputer (client) dapat mengakses domain **pasopati.xxxx.com** melalui **alamat IP Kotalingga** (Notes: menggunakan pointer record).
 
@@ -333,6 +343,8 @@ host -t PTR 10.69.1.3
 Kemudian jalankan ini di client untuk memeriksa keberhasilannya:
 
 `host -t PTR 10.69.1.3`
+
+# Soal 7
 
 7. Akhir-akhir ini seringkali terjadi **serangan brainrot** ke DNS Server Utama, sebagai tindakan antisipasi kamu diperintahkan untuk membuat **DNS Slave di Majapahit** untuk **semua domain** yang sudah dibuat sebelumnya yang mengarah ke **Sriwijaya**.
 
@@ -428,6 +440,8 @@ Untuk memeriksa keberhasilan, matikan bind9 di Sriwijaya (bind9 di Majapahit men
 
 ![image.png](image%202.png)
 
+# Soal 7
+
 8. Kamu juga diperintahkan untuk membuat subdomain khusus melacak kekuatan tersembunyi **di Ohio** dengan subdomain **cakra.sudarsana.xxxx.com** yang mengarah ke Bedahulu.
 
 Di Sriwijaya (DNS Master), Edit Setup pada file `/etc/bind/it11/sudarsana.it11.com` menjadi seperti berikut ini:
@@ -465,6 +479,8 @@ Tes keberhasilan dengan ping subdomain cakra.sudarsana.it11.com di client.
 ![image.png](image%204.png)
 
 ![image.png](image%205.png)
+
+# Soal 9
 
 9. Karena terjadi serangan DDOS oleh shikanoko nokonoko koshitantan (NUN), sehingga sistem komunikasinya terhalang. Untuk melindungi warga, kita diperlukan untuk membuat sistem peringatan dari siren man oleh Frekuensi Freak dan memasukkannya ke subdomain **panah.pasopati.xxxx.com** dalam folder panah dan pastikan dapat diakses secara mudah dengan menambahkan alias **www.panah.pasopati.xxxx.com** dan mendelegasikan subdomain tersebut ke **Majapahit** dengan alamat IP menuju radar di **Kotalingga**.
 
@@ -580,6 +596,8 @@ Tes dengan ping pasopati dengan subdomain panah di client.
 
 ![image.png](image%208.png)
 
+# Soal 10
+
 10. Markas juga meminta catatan kapan saja meme brain rot akan dijatuhkan, maka buatlah subdomain baru di subdomain panah yaitu **log.panah.pasopati.xxxx.com** serta aliasnya **www.log.panah.pasopati.xxxx.com** yang juga mengarah ke **Kotalingga.**
 
 **DI MAJAPAHIT**
@@ -616,6 +634,8 @@ Tes dengan ping subdomain log.panah.pasopati di client.
 ![image.png](image%2010.png)
 
 ![image.png](image%2011.png)
+
+# Soal 11
 
 11. Setelah pertempuran mereda, warga IT dapat kembali mengakses jaringan luar dan menikmati meme brainrot terbaru, tetapi **hanya** warga **Majapahit** saja yang dapat mengakses jaringan luar secara **langsung**. Buatlah konfigurasi agar warga IT yang berada diluar Majapahit dapat mengakses jaringan luar **melalui** DNS Server **Majapahit.**
 
@@ -665,6 +685,8 @@ Tes dengan ping [google.com](http://google.com) dari client.
 ![image.png](image%2013.png)
 
 ![image.png](image%2014.png)
+
+# Soal 12
 
 12. Karena pusat ingin sebuah laman web yang ingin digunakan untuk memantau kondisi kota lainnya maka deploy laman web ini (cek resource yg lb) pada **Kotalingga** menggunakan **apache.**
 
@@ -759,6 +781,8 @@ lynx 10.69.1.3/index.php
 ```
 
 ![image.png](image%2015.png)
+
+# Soal 13
 
 13. Karena Sriwijaya dan Majapahit memenangkan pertempuran ini dan memiliki banyak uang dari hasil penjarahan (sebanyak 35 juta, belum dipotong pajak) maka pusat meminta kita memasang load balancer untuk membagikan uangnya pada web nya, dengan **Kotalingga, Bedahulu, Tanjungkulai** sebagai worker dan **Solok** sebagai **Load Balancer** menggunakan apache sebagai web server nya dan load balancer nya.
 
@@ -893,6 +917,8 @@ lynx 10.69.1.5:8080/index.php
 ![image.png](image%2017.png)
 
 ![image.png](image%2018.png)
+
+# Soal 14
 
 14. Selama melakukan penjarahan mereka melihat bagaimana web server luar negeri, hal ini membuat mereka iri, dengki, sirik dan ingin flexing sehingga meminta agar web server dan load balancer nya **diubah menjadi nginx**.
 
@@ -1220,6 +1246,8 @@ Untuk mengecek apakah website berjalan atau tidak, dapat menggunakan command ber
 
 ![image.png](image%2021.png)
 
+# Soal 15
+
 15. Markas pusat meminta **laporan hasil benchmark** dengan menggunakan apache benchmark dari load balancer dengan 2 web server yang berbeda tersebut dan meminta secara detail dengan ketentuan:
 - Nama Algoritma Load Balancer
 - Report hasil testing apache benchmark
@@ -1235,6 +1263,8 @@ ab -n 200 -c 10 http://10.69.2.4/
 ```
 
 ![image.png](image%2022.png)
+
+# Soal 16
 
 16. Karena dirasa kurang aman dari brainrot karena masih memakai IP, markas ingin akses ke **Solok** memakai **solok.xxxx.com** dengan alias **www.solok.xxxx.com** (sesuai web server terbaik hasil analisis kalian).
 
@@ -1280,6 +1310,8 @@ Lakukan tes dengan ping ke [solok.it11.com](http://solok.it11.com) di client:
 ![image.png](image%2024.png)
 
 ![image.png](image%2025.png)
+
+# Soal 17
 
 17. Agar aman, buatlah konfigurasi agar **solok.xxx.com hanya dapat diakses** melalui **port sebesar π x 10^4 = (phi nya desimal) dan 2000 + 2000 log 10 (10) +700 - π = ?**.
 
@@ -1342,6 +1374,8 @@ Untuk mengecek apakah solok**.it11.com** hanya dapat diakses melalui port **31
 
 ![image.png](image%2029.png)
 
+# Soal 18
+
 18. Apa bila ada yang mencoba mengakses IP solok akan secara otomatis dialihkan ke **www.solok.xxxx.com.**
 
 **Setup Nginx di Solok**
@@ -1396,6 +1430,8 @@ Untuk testing lakukan ping 10.69.2.4 di client:
 
 ![image.png](image%2033.png)
 
+# Soal 19
+
 19. Karena probset sudah kehabisan ide masuk ke **salah satu** worker buatkan akses direktori listing yang mengarah ke resource worker2.
 
 Di salah satu worker (dalam kasus ini saya memilih Kotalingga) dan buat konfigurasi sekianterimakasih.it11.com.conf di /etc/apache2/sites-available dengan konfigurasi seperti berikut:
@@ -1419,6 +1455,8 @@ Lakukan testing dengan command `lynx 10.69.1.3/worker2` di client.
 ![image.png](image%2035.png)
 
 ![image.png](image%2036.png)
+
+# Soal 20
 
 20. Worker tersebut harus dapat di akses dengan **sekiantterimakasih.xxxx.com** dengan alias **www.sekiantterimakasih.xxxx.com.**
 
