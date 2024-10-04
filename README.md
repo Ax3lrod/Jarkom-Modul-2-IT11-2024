@@ -1446,7 +1446,7 @@ wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1JGk
 unzip /var/www/sekianterimakasih.it11.com/worker2/dir-listing.zip -d /var/www/sekianterimakasih.it11.com/worker2/
 ```
 
-jalankan `a2ensite sekianterimakasih.it11[.com](http://jarkom2022.com/).conf` 
+jalankan `a2ensite sekianterimakasih.it11.com.conf` 
 
 jalankan `service apache2 restart`
 
